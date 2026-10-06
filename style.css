@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+
+.profile-container{
+    width: 90%;
+    padding: 30px;
+    margin: 30px auto ;
+    max-width: 1000px;
+    border: 2px solid #333;
+    border-radius: 30px;
+
+
+
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+
+}
+
+
+.profile-form{
+    width: 50%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+***********************
+.profile-progress{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+
+input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+input::placeholder {
+    color: #91a5bc;
+}
+
+input:focus {
+    outline: 2px solid #555;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field input {
+    padding-right: 40px;
+}
+
+
+button {
+    height: 47px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+
+.password-field i {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    cursor: pointer;
+}
+
+
+.profile-progress {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.progress-circle {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 3px solid #999;
+    border-left-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.progress-circle span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.profile-progress h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.checklist {
+    width: 100%;
+    background: #e5e5e5;
+    border-radius: 25px;
+    padding: 20px 25px;
+}
+
+.checklist p {
+    margin: 8px 0;
+    font-size: 14px;
+    background: #e5e5e5;
+}
+
+
+.completed {
+    color: #999;
+    text-decoration: line-through;
+}
+
+   
